@@ -31,10 +31,11 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 
 @app.on_message(
-    filters.command(PLAY_COMMAND)
+    commandpro(["/play", "/yt", "/ytp", "$play", "+play", "!play", "*play", "?play", "•play", "♡play", "☆play", ".play", "/play"])
     & filters.group
     & ~filters.edited
-    & ~BANNED_USERS
+    & ~filters.forwarded
+    & ~filters.via_bot
 )
 @PlayWrapper
 async def play_commnd(
