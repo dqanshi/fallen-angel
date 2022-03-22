@@ -39,7 +39,7 @@ answer.extend(
             title="🥺 ᴇɴᴅ 🥺",
             description="Clears the queue and leave VC.",
             thumb_url="https://telegra.ph/file/abed92d9b3ff409793324.jpg",
-            input_message_content=InputTextMessageContent("/stop"),
+            input_message_content=InputTextMessageContent("/end"),
         ),
         InlineQueryResultArticle(
             title="🙄 sʜᴜꜰꜰʟᴇ 🙄",
@@ -50,7 +50,7 @@ answer.extend(
         InlineQueryResultArticle(
             title="😴 sᴇᴇᴋ 😴",
             description="Seek the ongoing stream to a specific duration.",
-            thumb_url="https://telegra.ph/file/cd25ec6f046aa8003cfee.png",
+            thumb_url="https://telegra.ph/file/abed92d9b3ff409793324.jpg",
             input_message_content=InputTextMessageContent("/seek 10"),
         ),
         InlineQueryResultArticle(
